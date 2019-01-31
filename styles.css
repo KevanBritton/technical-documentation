@@ -1,0 +1,50 @@
+#nav-bar header {
+	text-align: center;
+}
+
+#nav-bar {
+	border-right: 1px solid;
+	
+	display: block;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+
+ul {
+	list-style-type: none;
+	display: block;
+	position: relative;
+	left: 0px;
+	height: 80%;
+	padding-left: 0px;
+}
+
+@media only screen and (max-width: 390px) {
+
+#nav-bar {
+		right: 0px;
+		bottom: auto;
+	}
+}
+
+
+.nav-link li {
+	padding: 15px;
+	padding-right 35px;
+	border: 3px solid;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: black;
+	line-height: 1.5;
+	font-family: "garamond";
+	display: list-item;
+
+}
+
+#main-doc {
+	position: absolute;
+	margin-left: 310px;
+}
