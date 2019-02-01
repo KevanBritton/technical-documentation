@@ -14,11 +14,11 @@ a {
 	text-decoration: none;
 }
 
-#nav-bar header {
+#navbar header {
 	text-align: center;
 }
 
-#nav-bar {
+#navbar {
 	border-right: 3px solid;
 	
 	display: block;
@@ -39,7 +39,7 @@ ul {
 
 @media only screen and (max-width: 390px) {
 
-#nav-bar {
+#navbar {
 		right: 0px;
 		bottom: auto;
 

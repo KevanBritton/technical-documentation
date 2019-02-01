@@ -7,30 +7,31 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<nav id="nav-bar">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<nav id="navbar">
 	<header><h1>Synth Types</h1></header>
 	<ul>
-		<a class="nav-link" href="#FM-Synthesis" rel="internal"><li>FM Synthesis</li></a>
-		<a class="nav-link" href="#Subtractive-Synthesis" rel="internal"><li>Subtractive Synthesis</li></a>
-		<a class="nav-link" href="#Additive-Synthesis" rel="internal"><li>Additive Synthesis</li></a>
-		<a class="nav-link" href="#Wavetable-Synthesis" rel="internal"><li>Wavetable Synthesis</li></a>
-		<a class="nav-link" href="#Vector-Synthesis" rel="internal"><li>Vector Synthesis</li></a>
+		<a class="nav-link" href="#FM_Synthesis" rel="internal"><li>FM Synthesis</li></a>
+		<a class="nav-link" href="#Subtractive_Synthesis" rel="internal"><li>Subtractive Synthesis</li></a>
+		<a class="nav-link" href="#Additive_Synthesis" rel="internal"><li>Additive Synthesis</li></a>
+		<a class="nav-link" href="#Wavetable_Synthesis" rel="internal"><li>Wavetable Synthesis</li></a>
+		<a class="nav-link" href="#Vector_Synthesis" rel="internal"><li>Vector Synthesis</li></a>
 	</ul>
 	</nav>
 	<main id="main-doc">
-<section class="main-section" id="FM-Synthesis">
+<section class="main-section" id="FM_Synthesis">
 	<header><h2>FM Synthesis</h2></header>
-	<p> Frequency modulation synthesis (or FM synthesis) is a form of sound synthesis where the frequency of a waveform, called the carrier, is changed by modulating its frequency with a modulator. The frequency of an oscillator is altered "in accordance with the amplitude of a modulating signal." (Dodge & Jerse 1997, p. 115) </p>
+	<p> <code>Frequency modulation synthesis</code> (or FM synthesis) is a form of sound synthesis where the frequency of a waveform, called the carrier, is changed by modulating its frequency with a modulator. The frequency of an oscillator is altered "in accordance with the amplitude of a modulating signal." (Dodge & Jerse 1997, p. 115) </p>
 
-	<p>FM synthesis can create both harmonic and inharmonic sounds. For synthesizing harmonic sounds, the modulating signal must have a harmonic relationship to the original carrier signal. As the amount of frequency modulation increases, the sound grows progressively more complex. Through the use of modulators with frequencies that are non-integer multiples of the carrier signal (i.e. inharmonic), inharmonic bell-like and percussive spectra can be created. </p>
+	<p><code>FM synthesis</code> can create both harmonic and inharmonic sounds. For synthesizing harmonic sounds, the modulating signal must have a harmonic relationship to the original carrier signal. As the amount of frequency modulation increases, the sound grows progressively more complex. Through the use of modulators with frequencies that are non-integer multiples of the carrier signal (i.e. inharmonic), inharmonic bell-like and percussive spectra can be created. </p>
 </section>
 	
-<section class="main-section" id="Subtractive-Synthesis">
+<section class="main-section" id="Subtractive_Synthesis">
 	<header><h2>Subtractive Synthesis</h2></header>
-	<p>Subtractive synthesis is a method of sound synthesis in which partials of an audio signal (often one rich in harmonics) are attenuated by a filter to alter the timbre of the sound. While subtractive synthesis can be applied to any source audio signal, the sound most commonly associated with the technique is that of analog synthesizers of the 1960s and 1970s, in which the harmonics of simple waveforms such as sawtooth, pulse or square waves are attenuated with a voltage-controlled resonant low-pass filter. Many digital, virtual analog and software synthesizers use subtractive synthesis, sometimes in conjunction with other methods of sound synthesis.[1]</p>	
+	<p><code>subtractive synthesis</code> is a method of sound synthesis in which partials of an audio signal (often one rich in harmonics) are attenuated by a filter to alter the timbre of the sound. While <code>subtractive synthesis</code> can be applied to any source audio signal, the sound most commonly associated with the technique is that of analog synthesizers of the 1960s and 1970s, in which the harmonics of simple waveforms such as sawtooth, pulse or square waves are attenuated with a voltage-controlled resonant low-pass filter. Many digital, virtual analog and software synthesizers use <code>subtractive synthesis</code>, sometimes in conjunction with other methods of sound synthesis.[1]</p>	
 </section>
 	
-<section class="main-section" id="Additive-Synthesis">
+<section class="main-section" id="Additive_Synthesis">
 	<header><h2>Additive Synthesis</h2></header>
 	<p>Additive synthesis is a sound synthesis technique that creates timbre by adding sine waves together.[1][2]</p>
 
@@ -39,12 +40,12 @@
 	<p>Additive synthesis most directly generates sound by adding the output of multiple sine wave generators. Alternative implementations may use pre-computed wavetables or the inverse Fast Fourier transform.</p>
 </section>
 
-<section class="main-section" id="Wavetable-Synthesis">
+<section class="main-section" id="Wavetable_Synthesis">
 	<header><h2>Wavetable Synthesis</h2></header>
 	<p>Wavetable synthesis is a technique used in certain digital music synthesizers to produce natural tone-like sounds. The sound of an existing instrument (a single note) is sampled and parsed into a sequence of circular tables of samples or wavetables, each having one period or cycle per table. A set of wavetables with user specified harmonic content can also be generated mathematically. Upon playback, these wavetables are used to fetch samples (table-lookup) in the same manner as in a numerically-controlled oscillator to produce a waveform. However, in wavetable synthesis, the output waveform is not normally static and evolves slowly in time as one wavetable is mixed with another, creating a changing waveform. Looping occurs when the wavetable evolution is halted, slowed, or reversed in time.</p>
 </section>
 	
-<section class="main-section" id="Vector-Synthesis">
+<section class="main-section" id="Vector_Synthesis">
 	<header><h2>Vector Synthesis</h2></header>
 	<p>Vector Synthesis is a type of audio synthesis introduced by Sequential Circuits in the Prophet VS synthesizer during 1986. The concept was subsequently used by Yamaha in the SY22/TG33 and similar instruments and by Korg in the Wavestation.</p>
 
